@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lobster&family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background: #121212;
+  height: 100vh;
+  color: #daecf2;
+}
+
+img {
+  object-fit: contain;
+}
+
+.bg-header {
+  background-color: #27272F;
+}
+
+.w-popup {
+  width: 150px;
+}
+
+.hw-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.ff-logo {
+  font-family: 'Lobster', cursive;
+  color: rgba(255, 101, 74, 0.884);
+}
+
+.hw-user {
+  width: 35px;
+  height: 35px;
+}
+
+.bg-btn {
+  background-color: #485dff;
+  color: #ffffff;
+  font-size: .8rem;
+}
+
+.bg-btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: #1833ff;
+}
+
+.fs-popup {
+  font-size: .9rem;
+}
+
+.fs-icons span {
+  font-size: .9rem;
+}
+
+.fs-icons i {
+  font-size: 1.5rem;
+}
+
+
+.hw-cart {
+  height: 365px;
+  width: 360px;
+}
+
+.hw-cart-img {
+  height: 70px;
+  width: 70px;
+}
+
+.h-cart span {
+  font-size: .9rem;
+}
+
+.btn:active {
+  border: none;
+}
+
+.text-facebook {
+  color: #3F62A9
+}
+
+.ff-cart {
+  font-family: 'Poppins', sans-serif;
+}
+
+.border-cart {
+  border-bottom: 5px solid #3F62A9;
+}
+
+/* addUser  */
+
+.hw-from {
+  width: 600px;
+  height: 470px;
+}
+
+.hw-from label {
+  margin-left: .4rem;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.hw-from input {
+  font-size: 0.8rem;
+}
